@@ -95,7 +95,7 @@ el.parentNode.removeChild(el);
             
         }
         
-        document.body.insertAdjacentHTML("afterBegin", "<div id='bannertabcontainer' style='width:" + jiscbanner.variables.width + "; margin:auto;'><div id='jiscbannertab' style='position:relative; top:32px; z-index:99999999; display:block; height:43px; width:143px; background-position: 0 -93px; margin-bottom:-100px; margin-top:-33px; float:right; cursor:pointer; color:transparent; background-image:url(https://uwp-jb.jisc.ac.uk/" + jiscbanner.tabimage + ");' onclick=jiscbanner.toggletab()>Banner tab</div></div>");
+        document.body.insertAdjacentHTML("afterBegin", "<div id='bannertabcontainer' style='width:" + jiscbanner.variables.width + "; margin:auto;'><div id='jiscbannertab' style='position:relative; top:32px; z-index:99999999; display:block; height:43px; width:143px; background-position: 0 -93px; margin-bottom:-100px; margin-top:-33px; float:right; cursor:pointer; color:transparent; background-image:url(/Zetoc_%20Homepage_files/" + jiscbanner.tabimage + ");' onclick=jiscbanner.toggletab()>Banner tab</div></div>");
         
         //document.getElementById("jiscbannertab").style.left = "960px";
         
@@ -103,7 +103,7 @@ el.parentNode.removeChild(el);
     
     //Add frame
     
-    document.body.insertAdjacentHTML("afterBegin", "<iframe title='Jisc masthead' id='banner' frameborder='0' style='overflow:hidden; transition: margin-top 200ms; display:block; position:relative; margin-top:0px; z-index:99999; position:absolute; margin-left:-99999px; height:0px; width:100%' src=https://uwp-jb.jisc.ac.uk/frame.html?" + jiscbanner.rawvariables + "></iframe>");
+    document.body.insertAdjacentHTML("afterBegin", "<iframe title='Jisc masthead' id='banner' frameborder='0' style='overflow:hidden; transition: margin-top 200ms; display:block; position:relative; margin-top:0px; z-index:99999; position:absolute; margin-left:-99999px; height:0px; width:100%' src=/Zetoc_%20Homepage_files/frame.html?" + jiscbanner.rawvariables + "></iframe>");
     
     
     jiscbanner.bannerframe = document.getElementById("banner");
